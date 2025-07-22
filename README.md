@@ -2,15 +2,25 @@
 
 A lightweight, expressive library for representing emotional and sensory glyphs in JavaScript.
 
-## Usage
+# 🧪 How to Use
 
-```js
-import EchoLure from './src/echolure.js';
+Import the library:
 
-EchoLure.glyph('heartbeat1')
-  .pitch('lower')
-  .velocity('slow')
+import EchoLure from 'echolure';
+
+# Play a glyph with modifiers:
+EchoLure.glyph('human-help')
+  .pitch('low')
+  .velocity('weak')
   .fall()
   .echo()
   .play();
-```
+
+# Play a basic glyph sound:
+  EchoLure.playSound('heartbeat');
+
+# Access all glyphs:
+  const allGlyphs = EchoLure.all();
+
+# Get similar glyphs:
+  const similar = EchoLure.getSimilar('water-drip');
