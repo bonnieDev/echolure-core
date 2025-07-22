@@ -1,0 +1,14 @@
+[
+  {
+    "id": "heartbeat1",
+    "name": "Heartbeat 1",
+    "symbol": "♥",
+    "sound": "heartbeat1.mp3"
+  },
+  {
+    "id": "heartbeat2",
+    "name": "Heartbeat 2",
+    "symbol": "💓",
+    "sound": "heartbeat2.mp3"
+  }
+]

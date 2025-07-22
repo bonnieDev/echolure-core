@@ -1,0 +1,9 @@
+{
+  "name": "echolure",
+  "version": "0.1.0",
+  "description": "A symbolic sensory expression library using glyphs, sound, and motion.",
+  "main": "src/echolure.js",
+  "type": "module",
+  "license": "SEE LICENSE",
+  "keywords": ["emotion", "sound", "glyph", "semantic", "accessibility"]
+}
