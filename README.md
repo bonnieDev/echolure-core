@@ -1,12 +1,5 @@
 # EchoLure Dev Library
 
-A lightweight, expressive library for representing emotional and sensory glyphs in JavaScript.
-
-## Usage
-
-
-# EchoLure
-
 A modular dev-first sound expression system. EchoLure lets you represent sensations, motions, emotions, and context using composable glyphs. These can then be interpreted as audio, animation, or haptic feedback — creating a multimodal design language.
 
 ---
