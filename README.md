@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/echoSignal.svg" alt="EchoLure logo" height="120">
+</p>
+
 # EchoLure Dev Library
 
 A modular dev-first sound expression system. EchoLure lets you represent sensations, motions, emotions, and context using composable glyphs. These can then be interpreted as audio, animation, or haptic feedback — creating a multimodal design language.
