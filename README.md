@@ -17,10 +17,6 @@ git clone https://github.com/bonnieDev/echolure-core.git
 
 
 
-# EchoLure Dev Library
-
-A lightweight, expressive library for representing emotional and sensory glyphs in JavaScript.
-
 # 🧪 How to Use
 
 Import the library:
