@@ -4,26 +4,42 @@
 
 # EchoLure Dev Library
 
-A modular dev-first sound expression system. EchoLure lets you represent sensations, motions, emotions, and context using composable glyphs. These can then be interpreted as audio, animation, or haptic feedback — creating a multimodal design language.
+A lightweight, expressive JavaScript library for representing emotional and sensory glyphs. EchoLure lets you compose sensations, motions, and emotions using a clear, sentence-like API that maps to sound — and eventually, visuals and haptics.
 
----
+“EchoLure is a tool for human-centered design. Instead of pixels, it starts with feeling.”
 
-## 📦 Installation
+# 🌟 Why EchoLure?
 
-This project will eventually be available via npm. For now, you can clone the core library and use it locally:
+Modern UIs are visually overloaded. EchoLure offers an alternative: a compositional syntax for non-visual expression.
 
-```bash
+Whether you're building a meditation app, responsive art installation, emotional game mechanic, or inclusive UX — EchoLure gives you a way to “say more with less.”
+
+# Potential Use Cases:
+
+🎮 Gaming: Emotional or environmental state feedback through subtle sound/haptics
+
+🧘 Mental wellness: Guide breathing, evoke calm, or reassure with expressive feedback
+
+📊 Data sonification: “Hear” datasets using pitch, echo, and rhythm as metaphors
+
+🎨 Creative tools: Give artists/devs a new, human medium for ambient storytelling
+
+🔔 Ambient notifications: Replace jarring pings with nuanced, meaningful signals
+
+# 📦 Installation
+
+EchoLure will soon be available via npm. For now:
+
 git clone https://github.com/bonnieDev/echolure-core.git
 
+Then import it:
 
+import EchoLure from './echolure.js';
 
 # 🧪 How to Use
 
-Import the library:
+Play a glyph with modifiers:
 
-import EchoLure from 'echolure';
-
-# Play a glyph with modifiers:
 EchoLure.glyph('human-help')
   .pitch('low')
   .velocity('weak')
@@ -31,31 +47,50 @@ EchoLure.glyph('human-help')
   .echo()
   .play();
 
-# Play a basic glyph sound:
-  EchoLure.playSound('heartbeat');
+Play a basic glyph:
 
-# Access all glyphs:
-  const allGlyphs = EchoLure.all();
+EchoLure.playSound('heartbeat');
 
-# Get similar glyphs:
-  const similar = EchoLure.getSimilar('water-drip');
+Explore the system:
 
-# 🛠️ What's Here So Far
+const allGlyphs = EchoLure.all();
+const similar = EchoLure.getSimilar('water-drip');
 
-    Glyph schema and seed data
+# 🛠️ What’s Here
 
-    Placeholder media assets (audio + visuals)
+Core glyph schema + seed data
 
-    Component structure (React)
+Audio/visual placeholder assets
 
-    Planning docs for future features
+Experimental fluent API
 
-# 🚧 What’s Coming Soon
+React component structure
 
-    Compass-based navigation UI
+Planning docs
 
-    User voting on glyph assets
+# 🚧 Coming Soon
 
-    “Sounds like...” phonetic matching
+Compass-style UI for exploration
 
-    Accessibility-first interactions for both blind and deaf users
+Community glyph voting + sharing
+
+“Sounds like…” search (phonetic/semantic)
+
+Accessibility-first logic for deaf/blind users
+
+Visual composition tool for non-coders
+
+# 🌍 License
+
+Apache License 2.0 + DEI Clause
+
+This project is distributed under the Apache License 2.0 with the following DEI commitment:
+
+Diversity, Equity, and Inclusion Clause:EchoLure is built to foster inclusive, expressive technology. Use of this library to promote harm, discrimination, or exclusion based on race, gender, disability, sexuality, religion, or nationality is strongly discouraged.
+
+By using EchoLure, you agree to uphold the spirit of inclusive innovation.
+
+💬 Feedback Welcome
+
+This project is just getting started. Suggestions, forks, creative use cases, and sound contributions are all welcome.
+
