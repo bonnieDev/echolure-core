@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/echoSignal.svg" alt="EchoLure logo" height="120">
+  <img src="assets/echoSignal.svg" alt="EchoLure logo" height="320">
 </p>
 
 # EchoLure Dev Library
